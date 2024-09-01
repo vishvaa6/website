@@ -1,0 +1,40 @@
+<?php session_start(); ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="icon" href="source/useri.png">
+    <link rel="stylesheet" href="source/signup.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div>
+        <h1>Signup</h1>
+        <form action="" method="post">
+            <div class="hju">
+            <div class="nome">
+                <i class='bx bxs-user'></i>
+                <input placeholder="Username" type="text" name="username" required>
+            </div>
+            <div>
+                <i class='bx bxs-lock'></i>
+                <input placeholder="Password" type="text" name="password" required>
+            </div>
+            <div>    
+                <i class='bx bxl-gmail'></i>
+                <input placeholder="email" type="text" name="email" required>
+            </div>
+            <div class="button">    
+                <input class="sub" type="submit" value="Signup" name="signup">
+            </div>    
+            <p>already a user <a href="login.html">Login?</a></p>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
