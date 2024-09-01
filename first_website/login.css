@@ -1,0 +1,87 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(208, 7, 235),blue);
+    background-image: url(y.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+form{
+    width: 25rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 8px 32px 0 rgb(34, 32, 32 ,.37);
+    border-radius: 30px;
+    border-left: 1px solid rgb(255, 255, 255,.4);
+    border-top: 1px solid rgb(255, 255, 255,.5);
+    color: white;
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    letter-spacing: 3px;
+    margin-top: 5%;
+}
+label{
+    font-size: 20px;
+    margin-left: 10%;
+    text-shadow: rgba(0, 0, 0, .2);
+
+}
+input{
+    width: 80%;
+    margin: 5% auto;
+    border-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+button{
+    width: 50%;
+    margin: 3% auto;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.10);
+    color: rgba(255, 255, 255,.50);
+    padding-top:5px 10px;
+    margin-top: 20%;
+
+}
+.one{
+    font-size: 12px;
+    color: white;
+    margin-left: 20px;
+}
+.two{
+    font-size: 12px;
+    color: white;
+    margin-left: 50%;
+    
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+button:hover{
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+
+}
